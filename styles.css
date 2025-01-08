@@ -1,0 +1,886 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0;
+   background-color: #fff1db
+
+}
+
+img {
+   display: block
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+    .sidenav, .hamburger {
+		display: none;
+}
+	.container, .menu, .time, .randomizer, .extra, .footer, .explainer, .resbut, .speRes, .plate, .found, .foundinfo, .disclaimer, .infoP, .QaA  {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.container {
+    background-color: #e66819;
+    height: 240px;
+    display: block;
+    /* align-content: center;
+    justify-content: center; */
+}
+
+.container img {
+    width: 240px;
+    height: auto;
+    position: absolute;
+    left: 39%;
+    top: 28%;
+    z-index: 1000;
+}
+
+.container h1 {
+    font-family: "acier-bat-noir", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff1db;
+    position: absolute;
+    left: 15%;
+    font-size: 500%;
+    top: -15%;
+}
+
+
+.menu {
+    background-color: #487355;
+    position: relative;
+    height: 90px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+
+.menu li {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+    background-color: #487355;
+    padding-bottom: 7%;
+    text-align: center;
+    height: 22%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+    padding-top: 43px;
+    padding-right: 0px;
+}
+
+
+.menu a:link, .menu a:visited {
+    color: #fff1db;
+    text-align: center;
+    font-size: 45px;
+    font-family: "acier-bat-noir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    margin-right: 7px;
+}
+
+.background {
+    background-color: #75D3FA;
+    width: 0px;
+    height: 93%;
+    position: absolute;
+    top: 5%;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+
+.tek:hover .background {
+    display: block;
+    width: 100%;
+    z-index: -1;
+}
+
+.menu a:hover, .menu a:active {
+    color: #21f47d;
+   
+    text-align: center;
+    font-size: 45px;
+    font-family: "acier-bat-noir", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+	z-index: -1;
+ 	transition-property: width;
+ 	transition-duration: 1s;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.randomizer {
+    height: 530px;
+    background-color: #fff1db;
+    height: 348px; /* Adjust the height as needed */
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding-bottom: 60px;
+    top: -60%;
+}
+
+.resbut {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resbut button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 40px;
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.speRes {
+    display: flex;
+    height: 100px;
+    background-color:#fff1db;
+    justify-content: center;
+    align-items: center;
+}
+
+.found {
+    display: block;
+    height: 270px;
+    background-color:#fff1db;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.speRes #restaurantCategory {
+    font-size: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 40px;
+    padding: 20px 40px;
+    background-color: #21f47d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: #e66819;
+}
+
+.found h3 {
+    display: block;
+    font-size: 4vw;
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+
+.plate {
+    display:block;
+    height: 100px;
+}
+
+.plate img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    top: -280%;
+    left: 40%;
+    z-index: 0;
+}
+
+.foundinfo {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.foundinfo p {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    display:flex;
+    height: 100px;
+    background-color: #e66819;	
+    position: relative;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.footer li {
+    text-align: center;
+    display: block;
+    justify-content:center;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    font-family: "acier-bat-solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.infoP {
+    background-color: #e66819;
+    height: 300px;
+    width: 1200px;
+    display: block;
+}
+
+.QaA {
+    background-color: #fff1db;
+    height: 500px;
+    display: block;
+    width: 1200px;
+}
+
+.infoP h3 {
+    text-align: center;
+    font-family: "acier-bat-solid", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.infoP p {
+    font-family: "acier-bat-solid", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin: 20px;
+    
+}
+
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1199px) {
+    
+        .sidenav, .hamburger {
+            display: none;
+    }
+        .container, .menu, .time, .randomizer, .extra, .footer, .explainer, .resbut, .speRes, .plate, .found, .foundinfo, .disclaimer  {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    
+    .container {
+        background-color: #e66819;
+        height: 240px;
+        display: block;
+        /* align-content: center;
+        justify-content: center; */
+    }
+    
+    .container img {
+        width: 20%;
+        height: auto;
+        position: absolute;
+        left: 39%;
+        top: 28%;
+        z-index: 1000;
+    }
+    
+    .container h1 {
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #fff1db;
+        position: absolute;
+        left: 15%;
+        font-size: 500%;
+        top: -15%;
+    }
+    
+    
+    .menu {
+        background-color: #487355;
+        position: relative;
+        height: 90px;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    }
+    
+    
+    .menu li {
+        float: left;
+        width: 25%;
+        list-style-type: none;
+        background-color: #487355;
+        padding-bottom: 7%;
+        text-align: center;
+        height: 22%;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0px;
+        padding-top: 43px;
+        padding-right: 0px;
+    }
+    
+    
+    .menu a:link, .menu a:visited {
+        color: #fff1db;
+        text-align: center;
+        font-size: 45px;
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        margin-right: 7px;
+    }
+    
+    .background {
+        background-color: #75D3FA;
+        width: 0px;
+        height: 93%;
+        position: absolute;
+        top: 5%;
+        transition-property: width;
+        transition-duration: 0.4s;
+    }
+    
+    .tek:hover .background {
+        display: block;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .menu a:hover, .menu a:active {
+        color: #21f47d;
+       
+        text-align: center;
+        font-size: 45px;
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        z-index: -1;
+         transition-property: width;
+         transition-duration: 1s;
+    }
+    
+    .time {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 30px;
+        padding: 20px;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .randomizer {
+        height: 530px;
+        background-color: #fff1db;
+        height: 348px; /* Adjust the height as needed */
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        padding-bottom: 60px;
+        top: -60%;
+    }
+    
+    .resbut {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .resbut button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 40px;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .speRes {
+        display: flex;
+        height: 100px;
+        background-color:#fff1db;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .found {
+        display: block;
+        height: 270px;
+        background-color:#fff1db;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .speRes #restaurantCategory {
+        font-size: 16px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        font-size: 40px;
+        padding: 20px 40px;
+        background-color: #21f47d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    button:hover {
+        background-color: #e66819;
+    }
+    
+    .found h3 {
+        display: block;
+        font-size: 4vw;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .plate {
+        display:block;
+        height: 100px;
+    }
+    
+    .plate img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        justify-content: center;
+        align-content: center;
+        top: -280%;
+        left: 40%;
+        z-index: 0;
+    }
+    
+    .foundinfo {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .foundinfo p {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .footer {
+        display:flex;
+        height: 100px;
+        background-color: #e66819;	
+        position: relative;
+        justify-content: center;
+        padding-top: 2%;
+    }
+    
+    .footer li {
+        text-align: center;
+        display: block;
+        justify-content:center;
+        position: relative;
+        text-align: center;
+        padding: 2%;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hamburger {
+		font-size: 45px;
+		position: fixed;
+		top: 10px;
+		left: 10px;
+		z-index: 100;
+	}
+	
+	.hambuger:hover {
+  		color:#FFBD00;    		
+	}
+	
+	/* The side navigation menu */
+    .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 150; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+        .container, .menu, .time, .randomizer, .extra, .footer, .explainer, .resbut, .speRes, .plate, .found, .foundinfo, .disclaimer  {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    
+    .container {
+        background-color: #e66819;
+        height: 100px;
+        width: auto;
+        display: block;
+        /* align-content: center;
+        justify-content: center; */
+    }
+    
+    .container img {
+        width: 20%;
+        height: auto;
+        position: absolute;
+        left: 39%;
+        top: 28%;
+        z-index: 1000;
+        display: none;
+    }
+    
+    .container h1 {
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        color: #fff1db;
+        position: absolute;
+        left: 20%;
+        font-size: 6vw;
+        top: 15%;
+    }
+    
+    
+    .menu {
+        background-color: #487355;
+        position: relative;
+        height: 90px;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+        display: none;
+    }
+    
+    
+    .menu li {
+        float: left;
+        width: 25%;
+        list-style-type: none;
+        background-color: #487355;
+        padding-bottom: 7%;
+        text-align: center;
+        height: 22%;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0px;
+        padding-top: 43px;
+        padding-right: 0px;
+        display: none;
+    }
+    
+    
+    .menu a:link, .menu a:visited {
+        color: #fff1db;
+        text-align: center;
+        font-size: 45px;
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        margin-right: 7px;
+        display: none;
+    }
+    
+    .background {
+        background-color: #75D3FA;
+        width: 0px;
+        height: 93%;
+        position: absolute;
+        top: 5%;
+        transition-property: width;
+        transition-duration: 0.4s;
+    }
+    
+    .tek:hover .background {
+        display: block;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .menu a:hover, .menu a:active {
+        color: #21f47d;
+       
+        text-align: center;
+        font-size: 45px;
+        font-family: "acier-bat-noir", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-decoration: none;
+        z-index: -1;
+         transition-property: width;
+         transition-duration: 1s;
+    }
+    
+    .time {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 30px;
+        padding: 20px;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        width: auto;
+    }
+    
+    .randomizer {
+        height: 530px;
+        background-color: #fff1db;
+        height: 348px; /* Adjust the height as needed */
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        padding-bottom: 60px;
+        top: -60%;
+    }
+    
+    .resbut {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .resbut button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 40px;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .speRes {
+        display: flex;
+        height: 100px;
+        background-color:#fff1db;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .found {
+        display: block;
+        height: 140px;
+        background-color:#fff1db;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .speRes #restaurantCategory {
+        font-size: 16px;
+        padding: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button {
+        font-size: 40px;
+        padding: 20px 40px;
+        background-color: #21f47d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+    button:hover {
+        background-color: #e66819;
+    }
+    
+    .found h3 {
+        display: block;
+        font-size: 10vw;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+    }
+    
+    .plate {
+        display:block;
+        height: 100px;
+    }
+    
+    .plate img {
+        height: 100%;
+        width: auto;
+        position: absolute;
+        justify-content: center;
+        align-content: center;
+        top: -280%;
+        left: 40%;
+        z-index: 0;
+    }
+    
+    .foundinfo {
+        display: block;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .disclaimer {
+        display:flex;
+        justify-content: center;
+        
+    }
+
+    .disclaimer p {
+        margin: 10px;
+
+    }
+    
+    .foundinfo p {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .footer {
+        display:flex;
+        height: 80px;
+        background-color: #e66819;	
+        position: relative;
+        justify-content: center;
+        padding-top: 2%;
+        margin-right: 2%;
+        position: sitcky;
+        bottom: 0;
+    }
+    
+    .footer li {
+        text-align: center;
+        display: block;
+        justify-content:center;
+        position: relative;
+        text-align: center;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-right: 3%;
+    }
+    
+}
+

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUP_RAD</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eae1hqt.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eae1hqt.css">
+        </head>
+
+    <body onload="startTime()">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"><p>HOME</p></a>
+            <!-- <a href="#"><p>FAQ</p></a> -->
+            <a href="Info.html"><p>INFO</p></a>
+            <!-- <a href="#"><p>CITIES</p></a> -->
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()" class="hamburger">&#9776;</span>	
+
+          <div class="container">
+            <img src="images/Cute_Randy.svg" alt="" id="Image1"/> 
+          
+              <div>
+                  <h1>Tupelo Randomizer</h1>
+                  
+              </div>
+          </div>
+
+          <div class="menu">
+            <li class="tek"><a href=""></a><div class="meback">&nbsp;</div></li>
+        
+            <li class="tek"><a href="index.html">HOME</a><div class="meback">&nbsp;</div></li>
+            
+            
+            <li class="tek"><a href="Info.html">INFO</a><div class="meback">&nbsp;</div></li>
+            
+            <li class="tek"><a href=""></a><div class="meback">&nbsp;</div></li>
+            
+        </div>	
+            </div>
+        
+        <div class="time", id="txt">
+        </div>
+        
+        
+            <div class="resbut">
+                <button onclick="pickRandomRestaurant()">Randomizer</button>
+            </div>
+        
+        <div class="speRes">
+            <div>
+                <select id="restaurantCategory">
+                <option value=""><p>Master</p></option>
+                <option value="Mexican">Mexican</option>
+                <option value="Italian">Italian</option>
+                <option value="Asian">Asian</option>
+                <option value="American">American</option>
+                <option value="B&L">Breakfast & Lunch</option>
+                <option value="L/D/S">Lunch/Dinner (Sit down Only)</option>
+                <option value="L/D/T">Lunch/Dinner (Takeout and Sit Down)</option>
+                <option value="ADa">All Day Long</option>
+                <option value="SoSa">Soups & Sandwiches</option>
+                <option value="Burgers">Burgers</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Cajun">Cajun</option>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Barbeque">Barbeque</option>
+                <option value="Salad">Salad</option>
+                <option value="Chicken">Chicken</option>
+                <option value="Desserts">Desserts</option>
+                <option value="Coffee">Coffee & Tea</option>
+                <option value="No">North</option>
+                <option value="Sou">South</option>
+                <option value="E/C">East/Campus</option>
+                <option value="West">West</option>
+                <option value="District">District</option>	
+                <option value="Spec">Specials</option>
+                <option value="Steaks">Steaks</option>
+                <option value="FSB">Fully Stocked Bar</option>
+                <option value="LS">Limited Selection</option>
+                <option value="Seafood">Seafood</option>
+                <option value="Soon"></option>
+            </select>
+            </div>
+        </div>
+        
+        <div class="found">
+            <h3 id="randomRestaurant"></h3>
+            </div>
+        
+        <!-- <div class="plate">
+            <img src="images/dish.svg">
+            </div> -->
+        
+        <!-- <div class="foundinfo">
+            <p id="restaurantInfo"></p>
+        </div> -->
+        
+        <div class="disclaimer">
+            <p>Disclaimer: This site was made with the intention to simplify the Restaurant selection process in Starkville Mississippi without any biased.
+                I have tried to get every restaurant within Starkvile area, but if you find that there is a restaurant missing please send a DM to @Twittisthename on X/Twitter.   </p>
+        </div>
+        
+        <div class="footer">
+            <ul>
+            <li>@Tucker Witt</li>
+            <li><a href="https://twitter.com/TwittIsTheName">TwittIsTheName</a></li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+   
+        <script>
+            function startTime() {
+              const today = new Date();
+              let h = today.getHours();
+              let m = today.getMinutes();
+              let s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+              setTimeout(startTime, 1000);
+            }
+            
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            </script>
+    </body>
+
+
+
+
+
+
+</html>

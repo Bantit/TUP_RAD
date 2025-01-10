@@ -211,7 +211,7 @@ var restaurantData = [
     },
     {
         "name": "Pretzel Twister",
-        "category": "Mall, Lunch/Dinner, Specials, Coffee & Tea",
+        "category": "Mall, Lunch/Dinner, Specials",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -301,12 +301,12 @@ var restaurantData = [
     },
     {
         "name": "Scarlet's Donut",
-        "category": "North , Lunch/Dinner, Desserts",
+        "category": "North , Lunch/Dinner, Desserts, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Steak n Shake",
-        "category": "North , Lunch/Dinner, Burgers, Coffee & Tea",
+        "category": "North , Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -376,7 +376,7 @@ var restaurantData = [
     },
     {
         "name": "Johnny's Drive-In",
-        "category": "East, Lunch/Dinner, Burgers, Coffee & Tea",
+        "category": "East, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -416,7 +416,7 @@ var restaurantData = [
     },
     {
         "name": "Romie's Grocery",
-        "category": "North , Lunch/Dinner, Burgers, Coffee & Tea",
+        "category": "North , Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -611,7 +611,7 @@ var restaurantData = [
     },
     {
         "name": "Sonic Drive-in ",
-        "category": "South, All Day Long, Burgers, Coffee & Tea",
+        "category": "South, All Day Long, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -651,7 +651,7 @@ var restaurantData = [
     },
     {
         "name": "McAlister's Deli",
-        "category": "South, Lunch/Dinner, Sandwiches",
+        "category": "South, Lunch/Dinner, Sandwiches, Soups",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -771,17 +771,17 @@ var restaurantData = [
     },
     {
         "name": "Super Chix ",
-        "category": "West, Lunch/Dinner, Chicken, Coffee & Tea",
+        "category": "West, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Danvers",
-        "category": "West, Lunch/Dinner, Burgers, Coffee & Tea",
+        "category": "West, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Bishop's BBQ ",
-        "category": "West, Lunch/Dinner, Barbeque, Coffee & Tea",
+        "category": "West, Lunch/Dinner, Barbeque",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -796,7 +796,7 @@ var restaurantData = [
     },
     {
         "name": "Sweet Peppers Deli ",
-        "category": "West, Lunch/Dinner, Sandwiches, Coffee & Tea",
+        "category": "West, Lunch/Dinner, Sandwiches, Soups",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -886,7 +886,7 @@ var restaurantData = [
     },
     {
         "name": "Domino's",
-        "category": "South, Lunch/Dinner, Pizza, Coffee & Tea",
+        "category": "South, Lunch/Dinner, Pizza",
         "info": "Info is being updated in the next update, hopefully"
     },
     {

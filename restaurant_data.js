@@ -10,7 +10,7 @@ var restaurantData = [
         "info": "Info is being updated in the next update, hopefully"
     },
     {
-        "name": "Little Cezear",
+        "name": "Little Caesars",
         "category": "North , Lunch/Dinner, Pizza",
         "info": "Info is being updated in the next update, hopefully"
     },
@@ -210,7 +210,7 @@ var restaurantData = [
         "info": "Info is being updated in the next update, hopefully"
     },
     {
-        "name": "Prezel Place",
+        "name": "Pretzel Twister",
         "category": "Mall, Lunch/Dinner, Specials, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },

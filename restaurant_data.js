@@ -1,102 +1,102 @@
 var restaurantData = [
     {
         "name": "Cracker Barrel",
-        "category": "North , All Day Long, Breakfast, Coffee & Tea",
+        "category": "North, All Day Long, Breakfast, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Oishi",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Little Caesars",
-        "category": "North , Lunch/Dinner, Pizza",
+        "category": "North, Lunch/Dinner, Pizza",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Popeye's ",
-        "category": "North , Lunch/Dinner, Chicken",
+        "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Chick-Fil-A",
-        "category": "North , Lunch/Dinner, Chicken, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Chicken, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Taco Bell",
-        "category": "North , Lunch/Dinner, Mexican",
+        "category": "North, Lunch/Dinner, Mexican",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Zaxby's ",
-        "category": "North , Lunch/Dinner, Chicken",
+        "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Pyro's ",
-        "category": "North , Lunch/Dinner, Pizza, Limited Bar",
+        "category": "North, Lunch/Dinner, Pizza, Limited Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Rock n' Roll Sushi",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Burger King",
-        "category": "North , Lunch/Dinner, Burgers",
+        "category": "North, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Applebee's",
-        "category": "North , Lunch/Dinner, American",
+        "category": "North, Lunch/Dinner, American",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Red Lobster",
-        "category": "North , Lunch/Dinner, Seafood, Limited Bar",
+        "category": "North, Lunch/Dinner, Seafood, Limited Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Chuck E. Cheese",
-        "category": "North , Lunch/Dinner, Pizza",
+        "category": "North, Lunch/Dinner, Pizza",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Waffle House",
-        "category": "North , All Day Long, Breakfast, Coffee & Tea",
+        "category": "North, All Day Long, Breakfast, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Five Guys",
-        "category": "North , Lunch/Dinner, Burgers",
+        "category": "North, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Taziki's ",
-        "category": "North , Lunch/Dinner, Specials",
+        "category": "North, Lunch/Dinner, Specials",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Newks",
-        "category": "North , Lunch/Dinner, Sandwiches",
+        "category": "North, Lunch/Dinner, Sandwiches",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Julio's Tex-Mex",
-        "category": "North , Lunch/Dinner, Mexican, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Mexican, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Mt Fuji",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Crumble",
-        "category": "North , Lunch/Dinner, Desserts",
+        "category": "North, Lunch/Dinner, Desserts",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -111,57 +111,57 @@ var restaurantData = [
     },
     {
         "name": "Raising Cane's",
-        "category": "North , Lunch/Dinner, Chicken",
+        "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Holland's Bar and Grill",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Lone Star Schooner Bar and Grill",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Panda Express",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Pardon My Cheesesteak",
-        "category": "North , Lunch/Dinner, Steaks",
+        "category": "North, Lunch/Dinner, Steaks",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Slim Chicken",
-        "category": "North , Lunch/Dinner, Chicken",
+        "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Lobster King",
-        "category": "North , Lunch/Dinner, Seafood",
+        "category": "North, Lunch/Dinner, Seafood",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "New China Buffet",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "McDonald's",
-        "category": "North , Lunch/Dinner, Burgers, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Burgers, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "O'Charley's",
-        "category": "North , Lunch/Dinner, American, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, American, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Papa Johns",
-        "category": "North , Lunch/Dinner, Pizza",
+        "category": "North, Lunch/Dinner, Pizza",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -216,7 +216,7 @@ var restaurantData = [
     },
     {
         "name": "Captain D's",
-        "category": "North , Lunch/Dinner, Seafood",
+        "category": "North, Lunch/Dinner, Seafood",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -251,12 +251,12 @@ var restaurantData = [
     },
     {
         "name": "Chipotle ",
-        "category": "North , Lunch/Dinner, Mexican",
+        "category": "North, Lunch/Dinner, Mexican",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Wendy's ",
-        "category": "North , All Day Long, Burgers, Coffee & Tea",
+        "category": "North, All Day Long, Burgers, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -276,17 +276,17 @@ var restaurantData = [
     },
     {
         "name": "Chilli's ",
-        "category": "North , Lunch/Dinner, American, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, American, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Cantina Del Sol",
-        "category": "North , Lunch/Dinner, Mexican, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Mexican, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Kyoto",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -301,57 +301,57 @@ var restaurantData = [
     },
     {
         "name": "Scarlet's Donut",
-        "category": "North , Lunch/Dinner, Desserts, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Desserts, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Steak n Shake",
-        "category": "North , Lunch/Dinner, Burgers",
+        "category": "North, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Just Love Coffee",
-        "category": "North , Lunch/Dinner, Sandwiches, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Sandwiches, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Outback Steakhouse",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Texas Roadhouse",
-        "category": "North , Lunch/Dinner, American, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, American, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Neon Pig ",
-        "category": "North , Lunch/Dinner, Burgers, Limited Bar",
+        "category": "North, Lunch/Dinner, Burgers, Limited Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Charm Thai Restaurant ",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Lost Pizza Co. North Gloster",
-        "category": "North , Lunch/Dinner, Pizza, Limited Bar",
+        "category": "North, Lunch/Dinner, Pizza, Limited Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Brick & Spoon ",
-        "category": "North , Breakfast & Brunch, Breakfast, Coffee & Tea",
+        "category": "North, Breakfast & Brunch, Breakfast, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Funky Cones",
-        "category": "North , Lunch/Dinner, Desserts, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Desserts, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Sippi's Bar and Grill ",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -401,42 +401,42 @@ var restaurantData = [
     },
     {
         "name": "Sao Thai",
-        "category": "North , Lunch/Dinner, Asian",
+        "category": "North, Lunch/Dinner, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Acapulco Mexican Restaurant",
-        "category": "North , Lunch/Dinner, Mexican, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Mexican, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Woody's",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Romie's Grocery",
-        "category": "North , Lunch/Dinner, Burgers",
+        "category": "North, Lunch/Dinner, Burgers",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "ForkLift Resturant",
-        "category": "North , Lunch/Dinner, Steaks, Fully Stocked Bar",
+        "category": "North, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "KFC",
-        "category": "North , Lunch/Dinner, Chicken",
+        "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "China Capital ",
-        "category": "North , All Day Long, Asian",
+        "category": "North, All Day Long, Asian",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
         "name": "Strange Brew",
-        "category": "North , Lunch/Dinner, Sandwiches, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Sandwiches, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -791,7 +791,7 @@ var restaurantData = [
     },
     {
         "name": "Baskin Robbins North ",
-        "category": "North , Lunch/Dinner, Desserts, Coffee & Tea",
+        "category": "North, Lunch/Dinner, Desserts, Coffee & Tea",
         "info": "Info is being updated in the next update, hopefully"
     },
     {
@@ -861,11 +861,6 @@ var restaurantData = [
     },
     {
         "name": "Fairpark Grill ",
-        "category": "Downtown, Lunch/Dinner, Steaks, Fully Stocked Bar",
-        "info": "Info is being updated in the next update, hopefully"
-    },
-    {
-        "name": "The Grillehouse ",
         "category": "Downtown, Lunch/Dinner, Steaks, Fully Stocked Bar",
         "info": "Info is being updated in the next update, hopefully"
     },

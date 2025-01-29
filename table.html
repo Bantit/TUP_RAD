@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUP_RAD</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eae1hqt.css">
+    <link rel="stylesheet" href="https://use.typekit.net/eae1hqt.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fff1db
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+        }
+        select {
+            padding: 8px;
+            width: 300px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"><p>HOME</p></a>
+        <a herf="table.html"><p>TABLE</p></a>
+        <a href="Info.html"><p>INFO</p></a>
+        <!-- <a href="#"><p>CITIES</p></a> -->
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()" class="hamburger">&#9776;</span>	
+
+      <div class="container">
+        <img src="images/Cute_Randy.svg" alt="" id="Image1"/> 
+      
+          <div>
+              <h1>Tupelo Randomizer</h1>
+              
+          </div>
+      </div>
+
+      <div class="menu">
+    
+        <li class="tek"><a href="index.html">HOME</a><div class="meback">&nbsp;</div></li>
+        
+        
+        <li class="tek"><a href="Info.html">INFO</a><div class="meback">&nbsp;</div></li>
+        
+        <li class="tek"><a href="table.html">TABLE</a><div class="meback">&nbsp;</div></li>
+
+        <li class="tek"><a href=""></a><div class="meback">&nbsp;</div></li>
+        
+    </div>	
+        </div>
+        <div class="Tab_top1">
+        <h1>Search Restaurants by Tag</h1>
+        <select id="tagDropdown">
+            <!-- Options will be dynamically populated -->
+        </select>
+        <button onclick="filterRestaurants()">Search</button>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Results will appear here -->
+            </tbody>
+        </table>
+        </div>
+        <script src="restaurant_data.js"></script>
+        <script>
+            // Dynamically populate the dropdown with unique tags
+            const uniqueTags = [
+                "Master", "All Day Long", "American", "Asian", "Barbeque", "Breakfast",
+                "Breakfast & Brunch", "Burgers", "Chicken", "Coffee & Tea",
+                "Desserts", "Downtown", "East", "Fully Stocked Bar", "Italian",
+                "Limited Bar", "Lunch/Dinner", "Mall", "Mexican", "North", "Pizza",
+                "Salad", "Sandwiches", "Seafood", "Soups", "South", "Specials",
+                "Steaks", "West"
+            ]; // Replace this with dynamically generated tags if necessary
+    
+            const tagDropdown = document.getElementById('tagDropdown');
+            uniqueTags.forEach(tag => {
+                const option = document.createElement('option');
+                option.value = tag;
+                option.textContent = tag;
+                tagDropdown.appendChild(option);
+            });
+    
+            // Filter restaurants based on the selected tag
+            function filterRestaurants() {
+                const selectedTag = tagDropdown.value.toLowerCase();
+                const tableBody = document.querySelector('#resultsTable tbody');
+                tableBody.innerHTML = ''; // Clear previous results
+    
+                // Filter restaurants by the selected tag
+                const filteredRestaurants = restaurantData.filter(restaurant =>
+                    restaurant.category.toLowerCase().includes(selectedTag)
+                );
+    
+                // Populate the table with filtered results
+                filteredRestaurants.forEach(restaurant => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${restaurant.name}</td>
+                        <td>${restaurant.category}</td>
+                        <td>${restaurant.info}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+    
+                // Handle no results found
+                if (filteredRestaurants.length === 0) {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td colspan="3" style="text-align: center;">No restaurants found for "${selectedTag}"</td>
+                    `;
+                    tableBody.appendChild(row);
+                }
+            }
+        </script>
+</body>
+</html>

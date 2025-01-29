@@ -18,7 +18,7 @@ img {
     .sidenav, .hamburger {
 		display: none;
 }
-	.container, .menu, .time, .randomizer, .extra, .footer, .explainer, .resbut, .speRes, .plate, .found, .foundinfo, .disclaimer, .infoP, .QaA  {
+	.container, .menu, .time, .randomizer, .extra, .footer, .explainer, .resbut, .speRes, .plate, .found, .foundinfo, .disclaimer, .infoP, .QaA, .Tab_top1, .resultsTable  {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;

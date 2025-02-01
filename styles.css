@@ -48,7 +48,7 @@ img {
     font-style: normal;
     color: #fff1db;
     position: absolute;
-    left: 15%;
+    left: 20%;
     font-size: 500%;
     top: -15%;
 }
@@ -981,8 +981,8 @@ button:hover {
         margin-top: 20px;
         display: block;
         overflow-x: auto;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     th, td {

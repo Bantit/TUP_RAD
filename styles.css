@@ -295,11 +295,53 @@ button:hover {
     font-size: 20px;
     font-style: normal;
     margin: 20px;
+}
     
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #fff1db;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #4CAF50;
+    }
+    
+    select {
+        padding: 8px;
+        width: 300px;
+        margin-right: 10px;
+    }
+    
+    button {
+        padding: 8px 12px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+   
 }
 
 
-}
+
 
 @media only screen and (min-width: 601px) and (max-width: 1199px) {
     
@@ -556,6 +598,50 @@ button:hover {
         font-style: normal;
     }
     
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff1db;
+        padding: 5px;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        display: block;
+        overflow-x: auto;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #4CAF50;
+    }
+
+    select {
+        padding: 2%;
+        width: 90%;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 8px 12px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
     
     
 }
@@ -882,5 +968,60 @@ button:hover {
         padding-right: 3%;
     }
     
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff1db;
+        padding: 5px;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        display: block;
+        overflow-x: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #4CAF50;
+    }
+
+    .tab_top1 h1 {
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    select {
+        padding: 2%;
+        width: 90%;
+        max-width: 300px;
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 8px 12px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin: 5px;
+        font-family: "acier-bat-solid", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
 }
 

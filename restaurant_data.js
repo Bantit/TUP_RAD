@@ -900,8 +900,18 @@ var restaurantData = [
         "info": "Info is being updated in the next update, hopefully"
     },
     {
-        "name": "Toast Cocktail & Piano Bar",
-        "category": "Downtown, Lunch/Dinner, American, Fully Stocked Bar",
+        "name": "Backswings",
+        "category": "Mall, Lunch/Dinner, American, Fully Stocked Bar",
+        "info": "Info is being updated in the next update, hopefully"
+    },
+    {
+        "name": "King Chicken II",
+        "category": "East, Lunch/Dinner, Chicken",
+        "info": "Info is being updated in the next update, hopefully"
+    },
+    {
+        "name": "Mae's To-go Cup's",
+        "category": "West, All Day Long, Coffee & Tea, Breakfast",
         "info": "Info is being updated in the next update, hopefully"
     }
 ];

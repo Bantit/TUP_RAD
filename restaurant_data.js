@@ -130,11 +130,6 @@ var restaurantData = [
         "info": "Info is being updated in the next update, hopefully"
     },
     {
-        "name": "Pardon My Cheesesteak",
-        "category": "North, Lunch/Dinner, Steaks",
-        "info": "Info is being updated in the next update, hopefully"
-    },
-    {
         "name": "Slim Chicken",
         "category": "North, Lunch/Dinner, Chicken",
         "info": "Info is being updated in the next update, hopefully"
